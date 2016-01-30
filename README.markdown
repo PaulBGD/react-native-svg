@@ -4,12 +4,12 @@ Render SVG images or write your own in-line and animate them, fun!
 
 ## How to use it
 
-- `npm i react-native-svg --save`
+- `npm i react-native-svg-maintained --save`
 - `cd node_modules/react-native-svg/Libraries/ && git clone git@github.com:SVGKit/SVGKit.git)`
 - Then add RNSVg.Xcodeproj to your Libraries, and libRNSvg.a to your
   linked binaries.
 - Also add `libxmyl2.2.dylib` (`libxml2.2.tbd` for iOS9) to your linked binaries.
-- `var Svg = require('react-native-svg'); var Path = Svg.Path`
+- `var Svg = require('react-native-svg-maintained'); var Path = Svg.Path`
 
 ## Examples
 
